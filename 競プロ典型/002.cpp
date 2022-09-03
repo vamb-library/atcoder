@@ -16,7 +16,6 @@ using namespace std;
 //1つ目の書き方
 int main(void){
     int N;  cin >> N;
-
     //(1 << N) 1を左にNbitシフトした値　i.e. 2^N
     for(int i=0; i<(1 << N); i++){  
         string s = "";
